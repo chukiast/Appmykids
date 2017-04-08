@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="suksun.appmykids">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".SigninActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".SignUpActivity" />
+        <activity android:name=".AddfamilyActivity" />
+        <activity android:name=".AddfamActivity" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".Development1" />
+        <activity android:name=".Development1_5" />
+        <activity android:name=".Development2" />
+        <activity android:name=".Development2_5" />
+        <activity android:name=".Development3" />
+        <activity android:name=".Development3_5" />
+        <activity android:name=".Development4" />
+        <activity android:name=".Development5" />
+        <activity android:name=".Development6" />
+        <!--
+ ATTENTION: This was auto-generated to add Google Play services to your project for
+     App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information.
+        -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity android:name=".vaccine9m_1" />
+        <activity android:name=".vaccine1_5" />
+        <activity android:name=".vaccine2" />
+        <activity android:name=".vaccine2_5" />
+        <activity android:name=".vaccine6" />
+        <activity android:name=".vaccine6up" />
+        <activity android:name=".menudevlopment" />
+        <activity android:name=".menuvaccine" />
+        <activity android:name=".Reportdev1Activity" />
+        <activity android:name=".Reportdev1_5Activity" />
+        <activity android:name=".Reportdev2Activity" />
+        <activity android:name=".Reportdev2_5Activity" />
+        <activity android:name=".Criterion" />
+        <activity android:name=".Showdev1Activity" />
+        <activity android:name=".Menurepor" />
+        <activity android:name=".Menurepordev" />
+        <activity android:name=".Showdev1_5Activity" />
+        <activity android:name=".Reportdev3Activity" />
+        <activity android:name=".Reportdev5Activity" />
+        <activity android:name=".Reportdev6Activity" />
+        <activity android:name=".Showdev2Activity" />
+        <activity android:name=".Showdev2_5Activity" />
+        <activity android:name=".Showdev3Activity" />
+        <activity android:name=".Showdev4Activity" />
+        <activity android:name=".Showdev5Activity" />
+        <activity android:name=".Showdev6Activity" />
+        <activity android:name=".Showvaccine9m_1" />
+        <activity android:name=".Showvaccine1_5" />
+        <activity android:name=".Showvaccine2" />
+        <activity android:name=".Showvaccine2_5" />
+        <activity android:name=".Showvaccine6" />
+        <activity android:name=".Showvaccine6up" />
+        <activity android:name=".menurevac" />
+        <activity android:name=".Repotdev4Activity" />
+        <activity android:name=".Reportdev35Activity" />
+        <activity android:name=".ReportcriActivity" />
+        <activity android:name=".ShowcriActivity" />
+        <activity android:name=".Showdev35Activity" />
+        <activity android:name=".RegisterActivity"></activity>
+    </application>
+
+</manifest>

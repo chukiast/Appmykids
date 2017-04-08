@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundb"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="suksun.appmykids.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="แอพพลิเคชั่นมายคิดส์"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:textStyle="normal|bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+            <Button
+                android:id="@+id/btnmenudev"
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:layout_weight="0.23"
+                android:background="@android:color/holo_blue_bright"
+                android:text="พัฒนาการ"
+                android:textAlignment="center"
+                android:textSize="30sp"
+                android:textStyle="normal|bold" />
+
+            <Button
+                android:id="@+id/btnmenuvac"
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:layout_weight="0.23"
+                android:background="@color/colorAccent"
+                android:text="วัคซีน"
+                android:textAlignment="center"
+                android:textSize="30sp"
+                android:textStyle="normal|bold" />
+
+            <Button
+                android:id="@+id/btncriterion"
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:layout_weight="0.23"
+                android:background="@color/colorPrimaryDark"
+                android:text="น้ำหนัก/ส่วนสูง"
+                android:textAlignment="center"
+                android:textSize="30sp"
+                android:textStyle="normal|bold" />
+
+            <Button
+                android:id="@+id/btnrecord"
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:layout_weight="0.23"
+                android:background="@android:color/holo_green_dark"
+                android:text="รายการบันทึก"
+                android:textAlignment="center"
+                android:textSize="30sp"
+                android:textStyle="normal|bold" />
+
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_development4"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="suksun.appmykids.Development4"
+    android:background="#f7fba3">>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbarStyle="outsideOverlay">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:text="พัฒนากาของเด็กอายุ 4 ปี"
+                    android:layout_width="match_parent"
+                    android:id="@+id/textView6"
+                    android:textAlignment="center"
+                    android:textSize="30sp"
+                    android:layout_height="55dp" />
+
+                <TextView
+                    android:id="@+id/textView43"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="1. กระโดดขาเดียวได้อย่างน้อย 2 ครั้ง"
+                    android:textSize="18sp" />
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:orientation="horizontal"
+                    android:id="@+id/rdg36">
+
+                    <RadioButton
+                        android:text="ทำได้"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/rdbhoptrue"
+                        android:layout_weight="1" />
+
+                    <RadioButton
+                        android:text="ทำไม่ได้"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/rdbhopfalse"
+                        android:layout_weight="1" />
+
+                </RadioGroup>
+
+                <TextView
+                    android:id="@+id/textView44"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="2. ตัดกระดาษรูปสี่เหลียมจัตุรัส 1ซม. ออกเป็นสองชิ้น "
+                    android:textSize="18sp" />
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:orientation="horizontal"
+                    android:id="@+id/rdg37">
+
+                    <RadioButton
+                        android:text="ทำได้"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/rdbcuttrue"
+                        android:layout_weight="1" />
+
+                    <RadioButton
+                        android:text="ทำไม่ได้"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/rdbcutfalse"
+                        android:layout_weight="1" />
+
+                </RadioGroup>
+
+                <TextView
+                    android:id="@+id/textView45"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="3. เลียนแบบวาดรูป (ปากกาา)"
+                    android:textSize="18sp" />
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:orientation="horizontal"
+                    android:id="@+id/rdg38">
+
+                    <RadioButton
+                        android:text="ทำได้"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/rdbcrotrue"
+                        android:layout_weight="1" />
+
+                    <RadioButton
+                        android:text="ทำไม่ได้"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/rdbcrofalse"
+                        android:layout_weight="1" />
+
+                </RadioGroup>
+
+                <TextView
+                    android:id="@+id/textView46"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="4. เลือกวัตถุที่มีขนาดใหญ่กว่าหรือเล็กกว่า"
+                    android:textSize="18sp" />
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:orientation="horizontal"
+                    android:id="@+id/rdg39">
+
+                    <RadioButton
+                        android:text="ทำได้"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/rdbseltrue"
+                        android:layout_weight="1" />
+
+                    <RadioButton
+                        android:text="ทำไม่ได้"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/rdbselfalse"
+                        android:layout_weight="1" />
+
+                </RadioGroup>
+
+                <TextView
+                    android:id="@+id/textView47"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="5. พูดเป็นประโยค 3 คำติดต่อกันโดยมีความหมายเหมาะสมกับโอกาส"
+                    android:textSize="18sp" />
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:orientation="horizontal"
+                    android:id="@+id/rdg40">
+
+                    <RadioButton
+                        android:text="ทำได้"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/rdbsaytrue"
+                        android:layout_weight="1" />
+
+                    <RadioButton
+                        android:text="ทำไม่ได้"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/rdbsayfalse"
+                        android:layout_weight="1" />
+
+                </RadioGroup>
+
+                <TextView
+                    android:id="@+id/textView48"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="6. ใส่กระดุมขนาดใหญ่อย่างน้อย 3 ซม. ได้สามเม็ด"
+                    android:textSize="18sp" />
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:orientation="horizontal"
+                    android:id="@+id/rdg41">
+
+                    <RadioButton
+                        android:text="ทำได้"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/rdbenttrue"
+                        android:layout_weight="1" />
+
+                    <RadioButton
+                        android:text="ทำไม่ได้"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/rdbentfalse"
+                        android:layout_weight="1" />
+
+                </RadioGroup>
+
+                <Button
+                    android:id="@+id/btnsavedve4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/holo_blue_bright"
+                    android:text="บันทึก"
+                    android:textAlignment="center"
+                    android:textSize="30sp" />
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</RelativeLayout>
